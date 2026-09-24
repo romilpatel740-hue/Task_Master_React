@@ -1,19 +1,23 @@
-# React + Vite
+TaskMaster React
+A clean, modern, and responsive To-Do List application built using React and styled with CSS/Tailwind CSS. This project allows users to efficiently manage their daily tasks, filter through pending and completed items, and track their productivity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo On Vercel:
+https://taskmasterreact-j9z9m7ddc-romil-patel.vercel.app/
 
-Currently, two official plugins are available:
+✨ Features
+Add Tasks: Quickly add new tasks to your to-do list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Filter Tasks: Easily toggle between pending TODO tasks and All tasks.
 
-## React Compiler
+Task Management: Mark tasks as completed, edit existing tasks, or delete completed ones.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Responsive Design: Optimized for both mobile viewports and desktop screens.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Clean UI: Simple, dark-mode friendly aesthetic for comfortable viewing.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend Framework: React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: CSS3 / Tailwind CSS
+
+Deployment: Vercel
